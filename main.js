@@ -11,11 +11,9 @@ button.addEventListener('click', function(){
 
     paragraf.addEventListener('click', function(){
         paragraf.style.textDecoration ='line-through'
-
     })
 
     paragraf.addEventListener('dblclick', function(){
         container.removeChild(paragraf)
-
     })
 })
